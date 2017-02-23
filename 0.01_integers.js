@@ -14,3 +14,12 @@ console.log(30 % 18);
 
 console.log(Math.pow(10,2));
 
+function isRightTriangle(side, base, hypotenuse) {
+	if ((side * side + base * base) == (hypotenuse * hypotenuse)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(isRightTriangle(5,4,20));
