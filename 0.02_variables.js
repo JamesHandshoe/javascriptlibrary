@@ -1,5 +1,5 @@
 /********Variables *******/
-
+'use strict';
 //this variable is a string type
 var firstname = "James";
 var lastname = "Handshoe"
@@ -47,9 +47,30 @@ console.log(age *= 2);
 console.log(age -= 1);
 
 
+var foo = "bar";
 
+function bar() {
+	var foo = "baz";
+}
 
+function baz(foo) {
+	foo = "yay";
+	//bam = "Cheah";
+}
 
+console.log(foo);
+bar()
+console.log(foo);
+baz("Hello");
+console.log(foo);
+//console.log(bam);
 
+var functionTest = {
+	printCheah: function() {
+		return "cheah";
+	}
+}
+
+console.log(functionTest.printCheah());
 
 

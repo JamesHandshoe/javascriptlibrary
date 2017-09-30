@@ -3,6 +3,7 @@
 //if an object does not have a property or method
 //attached javascript interpreter will look up the 
 //prototype chain to try and find it.
+foo = "bar";
 function talk() {
 	console.log(this);
 	console.log(this.sound);

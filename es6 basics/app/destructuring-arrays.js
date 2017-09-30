@@ -1,3 +1,7 @@
+//The destructuring of arrays allows a developer
+//to unpack values from arrays and assign them to variables.
+//This is used a lot with React / Redux applications
+
 let numArray = [100, 200, 300];
 //same as coding
 //a = numArray[0]

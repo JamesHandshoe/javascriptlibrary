@@ -45,3 +45,4 @@ var clara = {};
 clara.age = setAge(7);
 clara.age.setBirthday("3/20/2009");
 console.log(clara.age.getBirthday());
+console.log(clara.age.getAge());
